@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
@@ -34,22 +35,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        {/* AdSense script — replace ca-pub-PLACEHOLDER with your publisher ID */}
-        {process.env.NODE_ENV === "production" && (
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-PLACEHOLDER"
-            crossOrigin="anonymous"
-          />
-        )}
-      </head>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <Header />
         <main id="main-content" className="flex-1">
           {children}
         </main>
         <Footer />
+        {/* Replace ca-pub-PLACEHOLDER with your AdSense publisher ID */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-PLACEHOLDER"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

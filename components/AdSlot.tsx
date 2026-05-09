@@ -1,5 +1,7 @@
 "use client";
 
+import { useEffect } from "react";
+
 interface AdSlotProps {
   slot?: string;
   format?: "auto" | "rectangle" | "horizontal" | "vertical";
@@ -14,6 +16,16 @@ export default function AdSlot({
   label = "Advertisement",
 }: AdSlotProps) {
   const isDev = process.env.NODE_ENV === "development";
+
+  useEffect(() => {
+    if (!isDev) {
+      try {
+        ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
+      } catch {
+        // adsbygoogle not loaded
+      }
+    }
+  }, [isDev]);
 
   if (isDev) {
     return (
