@@ -35,6 +35,31 @@ export default function Header() {
                 Contrast
               </Link>
             </li>
+            <li>
+              <Link href="/loan" className="text-navy-200 hover:text-white px-3 py-2 rounded hover:bg-navy-800 transition-colors">
+                Loan
+              </Link>
+            </li>
+            <li>
+              <Link href="/tip" className="text-navy-200 hover:text-white px-3 py-2 rounded hover:bg-navy-800 transition-colors">
+                Tip
+              </Link>
+            </li>
+            <li>
+              <Link href="/bmi" className="text-navy-200 hover:text-white px-3 py-2 rounded hover:bg-navy-800 transition-colors">
+                BMI
+              </Link>
+            </li>
+            <li>
+              <Link href="/convert" className="text-navy-200 hover:text-white px-3 py-2 rounded hover:bg-navy-800 transition-colors">
+                Convert
+              </Link>
+            </li>
+            <li>
+              <Link href="/age" className="text-navy-200 hover:text-white px-3 py-2 rounded hover:bg-navy-800 transition-colors">
+                Age
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>

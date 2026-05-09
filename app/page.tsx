@@ -48,6 +48,41 @@ const TOOLS = [
       "Check WCAG AA/AAA contrast ratios for text and get suggested accessible color alternatives.",
     color: "from-purple-500 to-violet-600",
   },
+  {
+    href: "/loan",
+    icon: "🏦",
+    name: "Loan Calculator",
+    description: "Calculate monthly payments and total interest for any loan or mortgage.",
+    color: "from-blue-500 to-blue-600",
+  },
+  {
+    href: "/tip",
+    icon: "🧾",
+    name: "Tip Calculator",
+    description: "Split the bill and calculate tip for any party size.",
+    color: "from-orange-500 to-amber-600",
+  },
+  {
+    href: "/bmi",
+    icon: "⚖️",
+    name: "BMI Calculator",
+    description: "Calculate your Body Mass Index and healthy weight range.",
+    color: "from-teal-500 to-cyan-600",
+  },
+  {
+    href: "/convert",
+    icon: "🔄",
+    name: "Unit Converter",
+    description: "Convert length, weight, temperature, and volume between any units.",
+    color: "from-violet-500 to-purple-600",
+  },
+  {
+    href: "/age",
+    icon: "🎂",
+    name: "Age Calculator",
+    description: "Find your exact age in years, months, and days — or the difference between any two dates.",
+    color: "from-pink-500 to-rose-600",
+  },
 ];
 
 export default function HomePage() {
