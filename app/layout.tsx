@@ -27,6 +27,9 @@ export const metadata: Metadata = {
     siteName: "QuicklyTools",
     type: "website",
   },
+  other: {
+    "google-adsense-account": "ca-pub-8489304757488217",
+  },
 };
 
 export default function RootLayout({
