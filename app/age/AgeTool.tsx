@@ -155,7 +155,7 @@ export default function AgeTool() {
         <div id="panel-between" role="tabpanel" aria-label="Date difference calculator">
           <div className="card mb-6">
             <h2 className="text-lg font-semibold text-slate-800 mb-4">Date Range</h2>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label htmlFor="date-1" className="block text-sm font-medium text-slate-700 mb-1">
                   Start Date

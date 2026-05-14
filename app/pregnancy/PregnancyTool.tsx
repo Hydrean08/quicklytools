@@ -179,7 +179,7 @@ export default function PregnancyTool() {
               Find your fertile window and ovulation day based on your cycle.
             </p>
 
-            <div className="grid grid-cols-2 gap-4 mb-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
               <div>
                 <label htmlFor="ov-lmp-date" className="block text-sm font-medium text-slate-700 mb-1">
                   First day of last period

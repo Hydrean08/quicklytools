@@ -156,7 +156,7 @@ export default function TipTool() {
             Results <span className="text-slate-400 font-normal text-sm">({activeTip}% tip)</span>
           </h2>
 
-          <div className="grid grid-cols-3 gap-4 mb-5">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
             <div className="text-center bg-navy-50 rounded-lg p-3">
               <p className="text-xs font-semibold uppercase tracking-wide text-navy-600 mb-1">Tip</p>
               <p className="text-2xl font-bold text-navy-700">{formatCurrency(result.tipAmount)}</p>

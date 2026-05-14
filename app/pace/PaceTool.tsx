@@ -129,7 +129,7 @@ export default function PaceTool() {
             <h2 className="text-lg font-semibold text-slate-800 mb-4">Calculate Your Pace</h2>
             <p className="text-sm text-slate-500 mb-5">Enter your distance and finish time to get your pace.</p>
 
-            <div className="grid grid-cols-2 gap-4 mb-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
               <div>
                 <label htmlFor="pace-distance" className="block text-sm font-medium text-slate-700 mb-1">
                   Distance
@@ -300,7 +300,7 @@ export default function PaceTool() {
               Enter a recent race result and we'll predict your times at other distances using the Riegel formula.
             </p>
 
-            <div className="grid grid-cols-2 gap-4 mb-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
               <div>
                 <label htmlFor="pred-distance" className="block text-sm font-medium text-slate-700 mb-1">
                   Known race distance
