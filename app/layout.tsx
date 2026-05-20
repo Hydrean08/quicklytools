@@ -47,7 +47,7 @@ export default function RootLayout({
         <Footer />
         <Script
           async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_CLIENT}`}
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "ca-pub-6145133140770176"}`}
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />

@@ -47,17 +47,32 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-3">Disclaimer</h3>
-            <p className="text-navy-300 text-sm">
-              Tax calculations are estimates using approximate rates. Consult a
-              tax professional for official advice. Pregnancy and health
-              information is for informational purposes only — not medical advice.
-            </p>
+            <h3 className="text-white font-semibold mb-3">Company</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/about" className="text-navy-300 hover:text-white text-sm transition-colors">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-navy-300 hover:text-white text-sm transition-colors">
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link href="/privacy" className="text-navy-300 hover:text-white text-sm transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
 
-        <div className="border-t border-navy-800 pt-4 text-center text-navy-400 text-sm">
+        <div className="border-t border-navy-800 pt-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-navy-400 text-sm">
           <p>&copy; {currentYear} QuicklyTools. All rights reserved.</p>
+          <p className="text-navy-500 text-xs">
+            Tax &amp; health results are estimates only — not professional advice.
+          </p>
         </div>
       </div>
     </footer>
