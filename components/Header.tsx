@@ -14,6 +14,7 @@ const NAV_LINKS = [
   { href: "/bmi", label: "BMI" },
   { href: "/convert", label: "Convert" },
   { href: "/age", label: "Age" },
+  { href: "/guides", label: "Guides" },
 ];
 
 export default function Header() {
