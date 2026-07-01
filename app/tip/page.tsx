@@ -82,7 +82,7 @@ export default function TipPage() {
                   <td className="p-3 border border-slate-200">18%</td>
                   <td className="p-3 border border-slate-200">$15.30</td>
                   <td className="p-3 border border-slate-200">$100.30</td>
-                  <td className="p-3 border border-slate-200">$25.08</td>
+                  <td className="p-3 border border-slate-200">$25.07</td>
                 </tr>
                 <tr>
                   <td className="p-3 border border-slate-200">20%</td>
