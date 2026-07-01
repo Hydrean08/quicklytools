@@ -99,7 +99,7 @@ export default function LoanPage() {
           <ul className="space-y-2 text-slate-600 text-sm leading-relaxed mb-4 list-disc list-inside">
             <li>r = 6% &divide; 12 = <strong>0.5% per month</strong> (0.005)</li>
             <li>n = <strong>60 payments</strong></li>
-            <li>(1 + 0.005)&#8�&#8060; = 1.005&#8076;&#8304; &asymp; <strong>1.34885</strong></li>
+            <li>(1.005) raised to the 60th power &asymp; <strong>1.34885</strong></li>
             <li>M = 25,000 &times; (0.005 &times; 1.34885) &divide; (1.34885 &minus; 1) &asymp; <strong>$483.32</strong></li>
           </ul>
           <p className="text-slate-600 text-sm leading-relaxed mb-4">
