@@ -46,10 +46,9 @@ export default function Page() {
         whole thing repeats. That produces a 14-day cycle.
       </p>
       <Callout>
-        On a Panama schedule, you work exactly 42 hours in every two-week pay period (7 shifts of
-        6 hours each... actually 7 twelve-hour shifts = 84 hours over 14 days, averaging 42 hours
-        per week). You always get every other weekend completely off, which makes personal
-        commitments much easier to plan.
+        On a Panama schedule, you work 7 twelve-hour shifts over every 14 days — 84 hours per
+        fortnight, which averages to exactly 42 hours per week. You also get every other weekend
+        completely off, which makes recurring personal commitments much easier to plan.
       </Callout>
       <p>
         The three-consecutive-day stretches are the defining feature of Panama. Working three
