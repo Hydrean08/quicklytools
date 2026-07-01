@@ -109,6 +109,42 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://quicklytools.org/guides/shift-schedule-patterns-explained/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://quicklytools.org/guides/color-contrast-accessibility-guide/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://quicklytools.org/guides/metric-vs-imperial-conversion-guide/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://quicklytools.org/guides/how-age-is-calculated/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://quicklytools.org/guides/adjusting-your-w4-withholding/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://quicklytools.org/guides/training-for-your-first-race/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://quicklytools.org/about/</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>yearly</changefreq>
