@@ -158,8 +158,8 @@ export default function LoanPage() {
                 <tr>
                   <td className="border border-slate-200 px-3 py-2 text-slate-600">6%</td>
                   <td className="border border-slate-200 px-3 py-2 text-slate-600">84 months</td>
-                  <td className="border border-slate-200 px-3 py-2 text-slate-600">$368.16</td>
-                  <td className="border border-slate-200 px-3 py-2 text-slate-600">$5,926</td>
+                  <td className="border border-slate-200 px-3 py-2 text-slate-600">$365.21</td>
+                  <td className="border border-slate-200 px-3 py-2 text-slate-600">$5,678</td>
                 </tr>
                 <tr className="bg-slate-50">
                   <td className="border border-slate-200 px-3 py-2 text-slate-600">4%</td>
