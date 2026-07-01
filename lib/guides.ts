@@ -151,6 +151,18 @@ export const GUIDES: Guide[] = [
     related: { name: "Paycheck Calculator", href: "/paycheck" },
     disclaimer: FINANCE_DISCLAIMER,
   },
+  {
+    slug: "training-for-your-first-race",
+    title: "Training for Your First 5K, 10K, or Half Marathon",
+    description:
+      "How to build up to your first race without burning out: how much to run each week, the difference between easy and race pace, how long training takes, and how to set a realistic goal time.",
+    excerpt:
+      "You don't need to run fast to finish your first race — you need to run consistently. Here's how much to train, why most miles should feel easy, and how to pick a realistic goal.",
+    date: "2026-07-01",
+    readingTime: 8,
+    related: { name: "Running Pace Calculator", href: "/pace" },
+    disclaimer: GENERAL_DISCLAIMER,
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {
