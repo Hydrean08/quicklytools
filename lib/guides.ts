@@ -91,6 +91,66 @@ export const GUIDES: Guide[] = [
     related: { name: "Pregnancy Calculator", href: "/pregnancy" },
     disclaimer: MEDICAL_DISCLAIMER,
   },
+  {
+    slug: "shift-schedule-patterns-explained",
+    title: "Panama, Pitman, and DuPont: Common Shift Rotation Patterns Explained",
+    description:
+      "How the most common rotating shift schedules work — the Panama 2-2-3, Pitman, DuPont, and 4-on-4-off patterns — their cycle lengths, average weekly hours, and trade-offs.",
+    excerpt:
+      "Rotating shift schedules look confusing until you see the pattern. Here's how Panama, Pitman, DuPont, and 4-on-4-off actually repeat — and how to tell which one fits.",
+    date: "2026-06-24",
+    readingTime: 7,
+    related: { name: "Shift Work Schedule", href: "/shift" },
+    disclaimer: GENERAL_DISCLAIMER,
+  },
+  {
+    slug: "color-contrast-accessibility-guide",
+    title: "Color Contrast and Readability: A Practical Guide to WCAG",
+    description:
+      "What a contrast ratio means, where the 4.5:1 and 3:1 WCAG thresholds come from, what counts as large text, and how to fix a brand color that fails an accessibility check.",
+    excerpt:
+      "A contrast ratio decides whether real people can read your text. Here's what the number means, which WCAG threshold applies, and how to fix colors that fail.",
+    date: "2026-06-26",
+    readingTime: 6,
+    related: { name: "Color Contrast Checker", href: "/contrast" },
+    disclaimer: GENERAL_DISCLAIMER,
+  },
+  {
+    slug: "metric-vs-imperial-conversion-guide",
+    title: "Metric vs Imperial: A Practical Guide to Everyday Unit Conversions",
+    description:
+      "Why the US mixes measurement systems, the conversions worth memorizing, why temperature needs a formula instead of a factor, and how US and imperial gallons differ.",
+    excerpt:
+      "Kilometers to miles, Celsius to Fahrenheit, cups to milliliters — the everyday conversions worth knowing, why temperature is the odd one out, and where US and imperial units split.",
+    date: "2026-06-27",
+    readingTime: 6,
+    related: { name: "Unit Converter", href: "/convert" },
+    disclaimer: GENERAL_DISCLAIMER,
+  },
+  {
+    slug: "how-age-is-calculated",
+    title: "How Age Is Calculated: Leap Years, Month Math, and Date Differences",
+    description:
+      "Why exact age isn't just days divided by 365, how the years-months-days breakdown borrows from the calendar, how leap years and Feb 29 birthdays are handled, and how to measure any date gap.",
+    excerpt:
+      "Your exact age isn't days ÷ 365. Here's how the years-months-days breakdown really works, how leap years fit in, and how to measure the gap between any two dates.",
+    date: "2026-06-29",
+    readingTime: 6,
+    related: { name: "Age Calculator", href: "/age" },
+    disclaimer: GENERAL_DISCLAIMER,
+  },
+  {
+    slug: "adjusting-your-w4-withholding",
+    title: "How to Adjust Your W-4 So Your Paycheck Withholding Is Right",
+    description:
+      "What the W-4 actually controls, why a big refund isn't free money, how filing status and extra withholding change your take-home pay, and how to dial in the right amount.",
+    excerpt:
+      "A big refund means you lent the government money for free. Here's how the W-4 controls your withholding and how to adjust it so your paycheck is right all year.",
+    date: "2026-06-30",
+    readingTime: 7,
+    related: { name: "Paycheck Calculator", href: "/paycheck" },
+    disclaimer: FINANCE_DISCLAIMER,
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {
