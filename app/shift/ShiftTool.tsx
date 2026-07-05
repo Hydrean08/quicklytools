@@ -82,9 +82,9 @@ export default function ShiftTool() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <div className="mb-6">
-        <h1 className="text-3xl font-bold text-slate-900 mb-2">Shift Work Schedule Calculator</h1>
+        <h1 className="text-3xl font-bold text-slate-900 mb-2">Shift Work Schedule &amp; Rota Calculator</h1>
         <p className="text-slate-500">
-          Generate a 4-week calendar for your shift rotation. Color-coded work and off days at a glance.
+          Generate a 4-week rota calendar for your shift rotation. Color-coded work and off days at a glance.
         </p>
       </div>
 
