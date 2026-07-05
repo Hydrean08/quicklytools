@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact/" },
   title: "Contact",
   description: "Contact QuicklyTools — send us feedback or report an issue.",
 };

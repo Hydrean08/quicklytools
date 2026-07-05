@@ -5,6 +5,7 @@ import { GuideLayout, H2, H3, UL, Callout } from "@/components/guide";
 const guide = getGuide("color-contrast-accessibility-guide")!;
 
 export const metadata: Metadata = {
+  alternates: { canonical: `/guides/${guide.slug}/` },
   title: guide.title,
   description: guide.description,
 };

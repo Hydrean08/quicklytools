@@ -3,6 +3,7 @@ import Link from "next/link";
 import { GUIDES_BY_DATE } from "@/lib/guides";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/guides/" },
   title: "Guides — Plain-English Explainers Behind Every Tool",
   description:
     "In-depth guides explaining the math and meaning behind our calculators: paychecks, BMI, loan amortization, running pace, tipping, pregnancy due dates, and more.",

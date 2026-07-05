@@ -3,6 +3,7 @@ import Link from "next/link";
 import { TOOLS } from "@/lib/tools";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/about/" },
   title: "About",
   description:
     "About QuicklyTools — who builds it, how our calculators are built and checked, and the standards behind every tool.",

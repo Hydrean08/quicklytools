@@ -5,6 +5,7 @@ import { GuideLayout, H2, UL, Callout } from "@/components/guide";
 const guide = getGuide("how-loan-amortization-works")!;
 
 export const metadata: Metadata = {
+  alternates: { canonical: `/guides/${guide.slug}/` },
   title: guide.title,
   description: guide.description,
 };

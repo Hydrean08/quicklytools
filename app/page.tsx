@@ -4,6 +4,7 @@ import { TOOLS } from "@/lib/tools";
 import { GUIDES_BY_DATE } from "@/lib/guides";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/" },
   title: "QuicklyTools — Free Everyday Calculators",
   description:
     "Free, fast, no-signup tools for everyday calculations. No account needed, works in your browser.",
