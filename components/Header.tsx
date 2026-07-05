@@ -4,17 +4,17 @@ import { useState } from "react";
 import Link from "next/link";
 
 const NAV_LINKS = [
-  { href: "/paycheck", label: "Paycheck" },
-  { href: "/shift", label: "Shift" },
-  { href: "/pace", label: "Pace" },
-  { href: "/pregnancy", label: "Pregnancy" },
-  { href: "/contrast", label: "Contrast" },
-  { href: "/loan", label: "Loan" },
-  { href: "/tip", label: "Tip" },
-  { href: "/bmi", label: "BMI" },
-  { href: "/convert", label: "Convert" },
-  { href: "/age", label: "Age" },
-  { href: "/guides", label: "Guides" },
+  { href: "/paycheck/", label: "Paycheck" },
+  { href: "/shift/", label: "Shift" },
+  { href: "/pace/", label: "Pace" },
+  { href: "/pregnancy/", label: "Pregnancy" },
+  { href: "/contrast/", label: "Contrast" },
+  { href: "/loan/", label: "Loan" },
+  { href: "/tip/", label: "Tip" },
+  { href: "/bmi/", label: "BMI" },
+  { href: "/convert/", label: "Convert" },
+  { href: "/age/", label: "Age" },
+  { href: "/guides/", label: "Guides" },
 ];
 
 export default function Header() {

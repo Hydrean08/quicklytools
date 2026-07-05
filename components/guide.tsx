@@ -23,7 +23,7 @@ export function GuideLayout({
       <nav className="text-xs text-slate-500 mb-6" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-slate-700">Home</Link>
         <span className="mx-2" aria-hidden="true">/</span>
-        <Link href="/guides" className="hover:text-slate-700">Guides</Link>
+        <Link href="/guides/" className="hover:text-slate-700">Guides</Link>
         <span className="mx-2" aria-hidden="true">/</span>
         <span className="text-slate-700">{guide.title}</span>
       </nav>

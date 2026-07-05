@@ -19,27 +19,27 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-3">Tools</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/paycheck" className="text-navy-300 hover:text-white text-sm transition-colors">
+                <Link href="/paycheck/" className="text-navy-300 hover:text-white text-sm transition-colors">
                   Paycheck Calculator
                 </Link>
               </li>
               <li>
-                <Link href="/shift" className="text-navy-300 hover:text-white text-sm transition-colors">
+                <Link href="/shift/" className="text-navy-300 hover:text-white text-sm transition-colors">
                   Shift Work Schedule
                 </Link>
               </li>
               <li>
-                <Link href="/pace" className="text-navy-300 hover:text-white text-sm transition-colors">
+                <Link href="/pace/" className="text-navy-300 hover:text-white text-sm transition-colors">
                   Running Pace Calculator
                 </Link>
               </li>
               <li>
-                <Link href="/pregnancy" className="text-navy-300 hover:text-white text-sm transition-colors">
+                <Link href="/pregnancy/" className="text-navy-300 hover:text-white text-sm transition-colors">
                   Pregnancy Calculator
                 </Link>
               </li>
               <li>
-                <Link href="/contrast" className="text-navy-300 hover:text-white text-sm transition-colors">
+                <Link href="/contrast/" className="text-navy-300 hover:text-white text-sm transition-colors">
                   Color Contrast Checker
                 </Link>
               </li>
@@ -50,22 +50,22 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-3">Company</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/guides" className="text-navy-300 hover:text-white text-sm transition-colors">
+                <Link href="/guides/" className="text-navy-300 hover:text-white text-sm transition-colors">
                   Guides
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-navy-300 hover:text-white text-sm transition-colors">
+                <Link href="/about/" className="text-navy-300 hover:text-white text-sm transition-colors">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-navy-300 hover:text-white text-sm transition-colors">
+                <Link href="/contact/" className="text-navy-300 hover:text-white text-sm transition-colors">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="text-navy-300 hover:text-white text-sm transition-colors">
+                <Link href="/privacy/" className="text-navy-300 hover:text-white text-sm transition-colors">
                   Privacy Policy
                 </Link>
               </li>

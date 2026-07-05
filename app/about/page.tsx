@@ -31,7 +31,7 @@ export default function AboutPage() {
           <p>
             Every tool on this site was written and tested by hand. We are a real, contactable
             team — you can reach us any time on our{" "}
-            <Link href="/contact" className="text-blue-600 hover:underline">
+            <Link href="/contact/" className="text-blue-600 hover:underline">
               contact page
             </Link>
             , and we read every message.
@@ -70,7 +70,7 @@ export default function AboutPage() {
             When a tool produces an estimate rather than an exact figure — taxes and due dates are
             both estimates by nature — we say so plainly on the page and point you to the right
             professional. Read more in our{" "}
-            <Link href="/guides" className="text-blue-600 hover:underline">
+            <Link href="/guides/" className="text-blue-600 hover:underline">
               guides
             </Link>
             , where we explain the math behind each calculator in depth.

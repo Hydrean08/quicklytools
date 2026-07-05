@@ -40,7 +40,7 @@ export default function HomePage() {
             There are no accounts, no pop-ups, and no tracking of your inputs. Every calculation
             runs entirely in your browser, so the numbers you type never leave your device. And when
             you want to understand the math behind a result, our{" "}
-            <Link href="/guides" className="text-navy-700 font-semibold hover:underline">
+            <Link href="/guides/" className="text-navy-700 font-semibold hover:underline">
               in-depth guides
             </Link>{" "}
             explain how each tool works in plain English.
@@ -119,7 +119,7 @@ export default function HomePage() {
           <div className="flex items-end justify-between mb-8">
             <h2 className="text-2xl font-bold text-slate-800">From our guides</h2>
             <Link
-              href="/guides"
+              href="/guides/"
               className="text-navy-700 font-semibold text-sm hover:underline"
             >
               View all →
@@ -129,7 +129,7 @@ export default function HomePage() {
             {GUIDES_BY_DATE.slice(0, 3).map((guide) => (
               <Link
                 key={guide.slug}
-                href={`/guides/${guide.slug}`}
+                href={`/guides/${guide.slug}/`}
                 className="group block bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md hover:border-slate-300 transition-all p-6"
               >
                 <div className="text-xs text-slate-500 mb-2">{guide.readingTime} min read</div>

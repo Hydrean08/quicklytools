@@ -32,7 +32,7 @@ export default function GuidesPage() {
         {GUIDES_BY_DATE.map((guide) => (
           <Link
             key={guide.slug}
-            href={`/guides/${guide.slug}`}
+            href={`/guides/${guide.slug}/`}
             className="block rounded-xl border border-slate-200 bg-white shadow-sm hover:shadow-md hover:border-slate-300 transition-all p-6 group"
           >
             <div className="flex items-center gap-3 text-xs text-slate-500 mb-2">
