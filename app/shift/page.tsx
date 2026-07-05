@@ -3,9 +3,9 @@ import ShiftTool from "./ShiftTool";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/shift/" },
-  title: "Shift Work Schedule Calculator — Panama, Pitman, DuPont Rotations",
+  title: "Shift Rota Calculator — Panama, Pitman, DuPont & 4-on-4-off",
   description:
-    "Generate a 4-week color-coded calendar for your shift rotation. Supports Panama, Pitman, 4-on-4-off, and DuPont schedules. Free, instant, no account needed.",
+    "Free shift rota calculator: generate a 4-week color-coded rotation calendar for Panama (2-2-3), Pitman, 4-on-4-off, and DuPont shift patterns. Instant, no signup.",
 };
 
 export default function ShiftPage() {
